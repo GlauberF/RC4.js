@@ -7,6 +7,9 @@ RC4 in JavaScript
 
 Previously I had written the RC4 algorithm in Python. This was an experiment for fun to see how that would look translated into JavaScript using features from ES6 with Babel.js, due to alot of the features not yet being available. Without all of the Babel code this code came in at 72 lines (have a look in src/rc4.js) without comments.
 
+### CDN
+https://cdn.jsdelivr.net/gh/GlauberF/RC4.js@master/dist/rc4.min.js
+
 ### Using rc4.js
 
 To use rc4.js, once you have included it in your project. Simply create a new instance of it, passing rc4 your key. For example:
